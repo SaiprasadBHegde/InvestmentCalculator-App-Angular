@@ -31,7 +31,12 @@
     </p>
     <p>
       <label for="duration">Duration</label>
-      <input id="duration" name="duration" type="number" />
+      <input
+        id="duration"
+        name="duration"
+        type="number"
+        [(ngModel)]="enteredDuration"
+      />
     </p>
   </div>
   <p><button>Calculate</button></p>
